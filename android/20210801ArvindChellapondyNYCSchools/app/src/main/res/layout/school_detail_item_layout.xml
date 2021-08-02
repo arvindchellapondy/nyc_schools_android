@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" android:padding="16dp">
+
+    <TextView
+        android:id="@+id/school_detail_item_title_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:textAllCaps="true"
+        android:maxLines="1"/>
+
+    <View
+        android:id="@+id/school_detail_item_seperator"
+        android:layout_width="10dp"
+        android:layout_height="2dp"
+        android:background="@color/orange"
+        android:layout_marginTop="4dp"/>
+
+    <TextView
+        android:id="@+id/school_detail_item_description_label"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_marginTop="8dp"
+        android:lineSpacingExtra="8dp"/>
+
+</LinearLayout>
